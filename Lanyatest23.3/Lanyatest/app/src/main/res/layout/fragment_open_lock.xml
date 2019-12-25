@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/iv_unlock"
+            android:layout_width="287dp"
+            android:layout_height="305dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@mipmap/ic_lock" />
+
+        <Button
+            android:id="@+id/bt_unlock"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="64dp"
+            android:background="@color/colorPrimary"
+            android:shape="oval"
+            android:text="点击开锁"
+            android:textColor="@android:color/white" />
+
+
+
+<!--        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/bt_lock"-->
+<!--                    android:layout_width="300dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignParentStart="true"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_alignParentTop="true"-->
+<!--                    android:layout_alignParentEnd="true"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_marginStart="64dp"-->
+<!--                    android:layout_marginLeft="64dp"-->
+<!--                    android:layout_marginTop="500dp"-->
+<!--                    android:layout_marginEnd="64dp"-->
+<!--                    android:background="@color/colorBule"-->
+<!--                    android:shape="oval"-->
+<!--                    android:text="点击关锁"-->
+<!--                    android:textColor="@android:color/white" />-->
+
+
+<!--        <TextView-->
+<!--        android:id="@+id/tv_time"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@+id/bt_unlock"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginLeft="170dp"-->
+<!--        android:text="开锁时间"-->
+<!--        android:textSize="16sp" />-->
+
+
+    </RelativeLayout>
+
+</LinearLayout>

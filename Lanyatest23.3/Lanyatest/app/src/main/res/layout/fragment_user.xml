@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--头像和用户名-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="#fff"
+        >
+
+        <ImageView
+            android:id="@+id/iv_setting_user_avatar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:clickable="true"
+            android:src="@mipmap/ic_person" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_toEndOf="@+id/iv_setting_user_avatar"
+            android:layout_toRightOf="@id/iv_setting_user_avatar"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:clickable="true"
+            android:text="哈哈哈" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#eee"
+        />
+
+
+    <RelativeLayout
+
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/iv_user_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="我的余额"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/user_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_toEndOf="@+id/iv_user_money"
+            android:layout_toRightOf="@id/iv_user_money"
+            android:text="100" />
+    </RelativeLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#eee"
+        />
+    <RelativeLayout
+
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/iv_broken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="故障报修"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#797979"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+    <RelativeLayout
+
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/iv_connect"
+            android:autoLink="phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="联系客服"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#eee"
+        />
+    <RelativeLayout
+
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/iv_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="退出登录"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#eee"
+        />
+
+
+
+</LinearLayout>

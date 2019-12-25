@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="24dp"
+        >
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:text="联  系  人： "
+            />
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        >
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:text="电         话："
+            />
+        <EditText
+            android:id="@+id/et_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        >
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:text="故障机器： "
+            />
+        <EditText
+            android:id="@+id/et_machine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="故障描述： " />
+
+        <EditText
+            android:id="@+id/et_description"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/editbox_shape"
+            android:padding="8dp"
+            android:textSize="15sp"
+            android:gravity="top"
+            android:text=""
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提 交"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:background="@drawable/arc_shape"
+        />
+
+</LinearLayout>

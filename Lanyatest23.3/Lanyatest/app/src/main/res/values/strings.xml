@@ -1,0 +1,21 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">ShareBed</string>
+    <string name="iv_first">首页</string>
+
+
+    <!--String to related to login-->
+    <string name="shared_preferences_file_name">sp_login</string>
+    <string name="login_phone">login_phone</string>
+    <string name="login_password">login_password</string>点击开锁
+    <string name="login_remember_password">login_remember_password</string>
+    <string name="ble_not_supported">你的设备不支持BLE</string>
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
